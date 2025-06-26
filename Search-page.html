@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Search-page.css">
+    <title>Food Blog</title>
+</head>
+<body>
+    <div class="button-container">
+        <button class="home button" onclick="window.open('Home-page.html', '_self')">Home</button>
+        <button class="about button" onclick="window.open('About-page.html', '_self')">About</button>
+        <button class="search button" onclick="window.open('Search-page.html', '_self')">Search</button>
+        <button class="sponsors button" onclick="window.open('Sponsors-page.html', '_self')">Sponsors</button>
+    </div>
+
+    <div class="row">
+        <div class="left" style="background-color:lightgrey;">
+          <h2>Search Bar</h2>
+          <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+          <ul id="myMenu">
+            <li><a href="pancake.html">Pancake</a></li>
+            <li><a href="salad.html">Salad</a></li>
+            <li><a href="#">Butter Ckicken</a></li>
+            <li><a href="#">dumplings</a></li>
+          </ul>
+        </div>
+       
+    <div class="right" >
+
+        <div class="left-bar"></div> 
+
+    <script src="Search-page.js"></script>
+
+</body>
+</html>
