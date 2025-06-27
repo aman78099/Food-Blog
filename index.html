@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="Home-page.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
-  <link rel="stylesheet" href="Home-page.js">
-  <script src="Home page.js"></script>
-  <title>Food Blog</title>
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--This the title of the website-->
+    <title>Food Blog</title>
+    <!--This links up the css page-->
+    <link rel="stylesheet" href="Home-page.css" />
+    <!--This allows us to use a new family font called Lobster-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster" />
 </head>
 <body>
-  <div class="button-container">
-    <button class="home button" onclick="window.open('index.html', '_self')">Home</button>
-    <button class="about button" onclick="window.open('About-page.html', '_self')">About</button>
-    <button class="search button" onclick="window.open('Search-page.html', '_self')">Search</button>
-    <button class="sponsors button" onclick="window.open('Sponsors-page.html', '_self')">Sponsors</button>
-</div>
-
-  <div class="left-bar"></div> 
-  <div class="button-container">
-
-    <div class="image-container">
-        <img src="Cake.jpg" alt="Image 1" class="cake">
-        <img src="Icecream.jpg" alt="Image 2" class="icecream">
-        <img src="Pizza.jpg" alt="Image 3" class="pizza">
-        <img src="Salad.jpg" alt="Image 4" class="salad">
-        <img src="logo.png" alt="Image 5" class="logo">
+    <!--This creates the left sider bar and the buttons-->
+    <div class="left-bar">
+        <nav class="sidebar-nav">
+            <a href="index.html" class="sidebar-button">Home</a>
+            <a href="Search-page.html" class="sidebar-button">Search</a>
+            <a href="About-page.html" class="sidebar-button">About</a>
+            <a href="Sponsor-page.html" class="sidebar-button">Sponsors</a>
+        </nav>
     </div>
-
-
-  <h1 class="text">Explore for your <br> favorite recipes!</h1>
+    
+    <!--This creates large text-->
+    <h1 class="text">Explore for your <br> favorite recipes!</h1>
+    
+    <!--This links and creates an image grid-->
+    <main class="main-content">
+        <div class="image-grid">
+        <img src="Cake.jpg" alt="Cake" />
+        <img src="Pizza.jpg" alt="Pizza" />
+        <img src="Icecream.jpg" alt="Ice Cream" />
+        <img src="Salad.jpg" alt="Salad" />
+        </div>    
+    </main>
 </body>
 </html>
