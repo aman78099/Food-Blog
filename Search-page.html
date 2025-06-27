@@ -3,33 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Search-page.css">
+    <!--This the title of the website-->
     <title>Food Blog</title>
-</head>
+    <!--This links up the css page-->
+    <link rel="stylesheet" href="Search-page.css">
+    <!--This allows us to use a new family font called Lobster-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster" />
+  </head>
 <body>
-    <div class="button-container">
-        <button class="home button" onclick="window.open('index.html', '_self')">Home</button>
-        <button class="about button" onclick="window.open('About-page.html', '_self')">About</button>
-        <button class="search button" onclick="window.open('Search-page.html', '_self')">Search</button>
-        <button class="sponsors button" onclick="window.open('Sponsors-page.html', '_self')">Sponsors</button>
+    <!--This creates the left sider bar and the buttons-->
+    <div class="left-bar">
+      <nav class="sidebar-nav">
+        <a href="index.html" class="sidebar-button">Home</a>
+        <a href="Search-page.html" class="sidebar-button">Search</a>
+        <a href="About-page.html" class="sidebar-button">About</a>
+        <a href="Sponsor-page.html" class="sidebar-button">Sponsors</a>
+      </nav>
     </div>
+  </nav>
+</div>
 
-    <div class="row">
-        <div class="left" style="background-color:lightgrey;">
-          <h2>Search Bar</h2>
-          <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
-          <ul id="myMenu">
-            <li><a href="pancake.html">Pancake</a></li>
-            <li><a href="salad.html">Salad</a></li>
-            <li><a href="#">Butter Ckicken</a></li>
-            <li><a href="#">dumplings</a></li>
-          </ul>
-        </div>
-       
-    <div class="right" >
+<!--This creates a search bar to type for recipes-->
+<main class="main-content">
+  <div class="search-container">
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search for recipes..." />
+    <ul id="myMenu" class="search-list">
+      <li><a href="Cake.html">Chocolate Cake</a></li>
+      <li><a href="Bchicken.html">Butter Chicken</a></li>
+      <li><a href="Salad.html">Salad</a></li>
+      <li><a href="Pancake.html">Pancake</a></li>
+      <li><a href="Dumpling.html">Dumplings</a></li>
+    </ul>
+  </div>
+</main>
 
-        <div class="left-bar"></div> 
-
+    <!--This links javascript-->
     <script src="Search-page.js"></script>
 
 </body>
