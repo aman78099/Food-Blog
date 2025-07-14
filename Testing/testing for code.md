@@ -8,7 +8,7 @@ prefectly in the center without too much shifting.
 ### Font styling 
 I chose to import Lobster into my html and use it. \
 Family font: lobster; was the intened outcome and \
-I saw Arial, lobster on computer. This allows me \
-to make the website more fun and appealing 
+I saw Arial, lobster; was the computer. This allows \
+me to make the website more fun and appealing.
 
 
