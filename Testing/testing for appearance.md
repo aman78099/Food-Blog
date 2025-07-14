@@ -22,7 +22,13 @@ the website more playful and exciting to look at.
 ### WHy I chose the background
 The backgroud plays a big role in the overall appearence \ 
 of website. I chose a simple background that has white \
-background
+at the back and shaded green shapes that are look like \
+different types of food. The purpose is to engage the \
+and great an appealing look.
 
 ### The overall appearance purpose 
-
+The overall purpose is to create an engaging beautiful \
+look that hooks the user and makes an exciting and \
+enjoyable experience for the user. The appearence is \
+a big factor as it effects mood and the experience of \
+the user.
