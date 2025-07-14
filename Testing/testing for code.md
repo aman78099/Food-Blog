@@ -20,9 +20,9 @@ different sponsors and about the food blog itself.
 ### Purpose of code
 The code helps create a working responsive website where \
 users can search for their favourite recipes. The colours \
-and the format comes together to create a thrilling \ 
+and the format comes together to create a thrilling \
 environment where the user explores for new recipes. \
-The only purpose is to serve as an helpful recipe book \ 
+The only purpose is to serve as an helpful recipe book \
 where anyone can easily find the recipes. 
 
  
