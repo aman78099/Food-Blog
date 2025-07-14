@@ -14,7 +14,7 @@ me to make the website more fun and appealing.
 ### Responsive buttons and search bar
 I added buttons and the navigation bar to the different \
 pages to make it easy and simple to find each page. \
-This helps to user to search for recipes, learn about \ \
+This helps to user to search for recipes, learn about  \
 different sponsors and about the food blog itself.
 
 ### Purpose of code
