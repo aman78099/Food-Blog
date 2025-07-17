@@ -116,7 +116,7 @@ everything less bland and created an intriguing food place look.
 
 ### conculsion
 These changes were essential for my website to create a unqinue \
-and appetizing look. I used html, css and javsrcipt to create \ 
+and appetizing look. I used html, css and javsrcipt to create \
 the final look. The user can now toggle through pages with out \
 being disapointed, read fancy text and look at the scrumptious \
 pictures of food. These ideas were inspired by people's thought \
