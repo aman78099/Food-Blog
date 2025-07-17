@@ -57,8 +57,8 @@ which added food shaped out as the background.
 I kept the photos nice and clean and using the css code. \
 I firstly had to import the pictures from online and move \
 it to my Food Blog folder. I was then able to orientate \
-by using margin left and margin top to move the picture 
-to a specific spot. For the background I imported the
+by using margin left and margin top to move the picture \
+to a specific spot. For the background I imported the \
 picture again into my Food Blog folder and using css \
 I set it up as my background and centered it.
 
@@ -107,7 +107,7 @@ simple and easy look, however that was my original plan.
 
 ### Improved
 After a lot of thought I finally realised that it was too \
-simple and made everything look weird in a way. I decided to
+simple and made everything look weird in a way. I decided to \
 fix the issue by importing the lobster font to my html \
 website. This improved the overall look of website and made \
 everything less bland and created an intriguing food place look. 
@@ -115,7 +115,7 @@ everything less bland and created an intriguing food place look.
 ---------------------------------------------------------
 
 ### conculsion
-These changes were essential for my website to create a unqinue 
+These changes were essential for my website to create a unqinue \
 and appetizing look. I used html, css and javsrcipt to create \ 
 the final look. The user can now toggle through pages with out \
 being disapointed, read fancy text and look at the scrumptious \
