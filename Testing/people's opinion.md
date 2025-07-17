@@ -44,7 +44,7 @@ and I also added a grey side bar. This made it easier to \
 navigate through the website and matched the general \
 theme of the website.
 
----------------------------------------------------------
+----
 
 ### Design 
 I added a few pictures and arranged them in a square \
