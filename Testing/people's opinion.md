@@ -43,7 +43,9 @@ responsive. I made them green to match with the theme \
 and I also added a grey side bar. This made it easier to \
 navigate through the website and matched the general \
 theme of the website.
+
 ---------------------------------------------------------
+
 ### Design 
 I added a few pictures and arranged them in a square \
 orientation. This made the website looker cooler. For \
@@ -75,6 +77,7 @@ background is sutible because it is simply and it goes well \
 with the rest of little details like text, buttons and images. \
 It also shows the main theme and goes with the colours palette. \
 I agree that the images need to be fixed.
+
 ---------------------------------------------------------
 
 
