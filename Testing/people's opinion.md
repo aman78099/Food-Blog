@@ -2,14 +2,14 @@
 ## Feedback others
 - The appearence is nice
 - I like the theme
-- The buttons are responsive and cool
 - I like the search bar
 - The colours go together really well
 - I like how I can search for different recipes
 - the website is very useful
-- the background looks amazing
 - I really like the clean and intuitive design of your website
 - The website is very easy to navigate, and I found what I was looking for quickly.
+- The content on your website is very imformative
+- The clear calls to action make it easy to find what I'm looking for
 _________________________________________________________________________________
 _________________________________________________________________________________
 ## Feedfoward from others before the final outcome
@@ -45,7 +45,7 @@ and I also added a grey side bar. This made it easier to \
 navigate through the website and matched the general \
 theme of the website.
 
----
+---------------------------------------------------------
 
 ### Design 
 I added a few pictures and arranged them in a square \
@@ -65,7 +65,7 @@ I set it up as my background and centered it.
 ### Testing
 When Interviewing others for their feedback someone commented \
 that the website looked too simple and. They explained how \
-the background was fairly simply and loocked plain. They also \
+the background was fairly simple and loocked plain. They also \
 stated that the images are organsied in a unpleasing way. They \
 also said that when you resize the tab, the images go all over the \
 place and looked wonky. It would be better if the images were to \
@@ -77,24 +77,47 @@ however, the background is prefectly fine. I think that the \
 background is sutible because it is simply and it goes well \
 with the rest of little details like text, buttons and images. \
 It also shows the main theme and goes with the colours palette. \
-I agree that the images need to be fixed.
+However, I agree that the images need to be fixed. To fix the \
+images, I added grids and added minimum and maximum so that \
+the images would change according to the size of screen. \
+The grid also made it easier to orientate the images into \
+a clean square format. I also added borders and make the \
+image responsive to make it fun and intriguing. 
 
 ---------------------------------------------------------
 
+### Design 
+I had Arial as my family font for my buttons, text and search \
+bar. It made everything easy to read and gave a clean look. \
+I thought it went well with the buttons and search bar so I \
+chose Arial. Even though Arial is not a fancy font, I thought \
+that it would be better to use a more readable font. 
 
+### Development
+To simply use Arial I used css and typed family-font: Arial, \
+This changed the default font to Arial and made it easier \
+for me to read. 
 
+### Testing
+When I came across Rehan's prespective about the website, \
+he pointed that the buttons, text and the search bar 
+looked bland. He added that it looked simple. To improve \
+it, he suggested to change the font because it gave a \
+simple and easy look, however that was my original plan. \
 
+### Improved
+After a lot of thought I finally realised that it was too \
+simple and made everything look weird in a way. I decided to
+fix the issue by importing the lobster font to my html \
+website. This improved the overall look of website and made \
+everything less bland and created an intriguing food place look. \
 
+---------------------------------------------------------
 
-- Rehan said that the text in gernal and on the buttons \
-  looks bland and ugly. It is simply and doesn't give a \
-  nice vibe.
-
-  I fixed this by importing the lobster font to my \
-  html website. This improves the overall look of \
-  website and makes it less bland and greats an \
-  intriguing text.
-
-  These changes were essential for my website to create a
-  unqinue and interesting look
-  
+### conculsion
+These changes were essential for my website to create a unqinue 
+and appetizing look. I used html, css and javsrcipt to create \ 
+the final look. The user can now toggle through pages with out \
+being disapointed, read fancy text and look at the scrumptious \
+pictures of food. These ideas were inspired by people's thought \
+about the website. 
