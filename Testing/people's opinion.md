@@ -9,3 +9,5 @@
 - the background looks amazing
 - I really like the clean and intuitive design of your website
 - The website is very easy to navigate, and I found what I was looking for quickly.
+
+Allan said 
