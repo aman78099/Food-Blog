@@ -20,7 +20,7 @@ The popping buttons add a cool visual t the website making \
 the website more playful and exciting to look at. 
 
 ### WHy I chose the background
-The backgroud plays a big role in the overall appearence \ 
+The backgroud plays a big role in the overall appearence \
 of website. I chose a simple background that has white \
 at the back and shaded green shapes that are look like \
 different types of food. The purpose is to engage the \
