@@ -100,17 +100,17 @@ for me to read.
 
 ### Testing
 When I came across Rehan's prespective about the website, \
-he pointed that the buttons, text and the search bar 
+he pointed that the buttons, text and the search bar \
 looked bland. He added that it looked simple. To improve \
 it, he suggested to change the font because it gave a \
-simple and easy look, however that was my original plan. \
+simple and easy look, however that was my original plan. 
 
 ### Improved
 After a lot of thought I finally realised that it was too \
 simple and made everything look weird in a way. I decided to
 fix the issue by importing the lobster font to my html \
 website. This improved the overall look of website and made \
-everything less bland and created an intriguing food place look. \
+everything less bland and created an intriguing food place look. 
 
 ---------------------------------------------------------
 
