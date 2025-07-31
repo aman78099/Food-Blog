@@ -14,19 +14,21 @@ body {
     background-attachment: fixed;
     color: white;
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
+    overflow-x: hidden;
 }
-  
+
 /* This creates a side bar that centers buttons even outs the space */
 .sidebar-nav {
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8%;
+    justify-content: space-evenly;
 }
 
-/* This designs the button changing its colour, size and text  */  
+/* This designs the button changing its colour, size and text */
 .sidebar-button {
     width: 80%;
     padding: 10% 5%;
@@ -41,7 +43,7 @@ body {
     transition: 0.3s ease;
 }
 
-/* This changes button color and adds a hover effect and also lifts the button slightly */  
+/* This changes button color and adds a hover effect and also lifts the button slightly */
 .sidebar-button:hover {
     background-color: white;
     color: rgb(53, 116, 53);
@@ -49,58 +51,83 @@ body {
     box-shadow: 0 0.3vw 0 black;
 }
 
-/* This adjusts font sizes for accoding to the screens size */
+/* This adjusts font sizes and layout for according to the screens size */
 @media (max-width: 768px) {
     .text {
-      font-size: 5vw;
+      font-size: 8vw;
+      text-align: center;
+      position: static;
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 10px;
+      border-radius: 0;
     }
+
     .sidebar-button {
       font-size: 3vw;
+      padding: 5% 3%;
+    }
+
+    .left-bar {
+        width: 100%;
+        min-width: unset;
+        height: auto;
+        position: static;
+        padding-top: 20px;
+    }
+
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* Keep images in a 2x2 grid even on smaller screens, but allow them to shrink */
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr); /* Stays 2 columns */
+        max-width: 100%; /* Allow it to take full width of main-content */
+        gap: 1%; /* Reduce gap to allow images more space */
+    }
+
+    .image-grid img {
+        height: 150px; /* Give images a fixed height on small screens */
+        object-fit: cover; /* Ensure they fill the space while maintaining aspect ratio */
     }
 }
 
-/* This Makes the sidebar navigation fill its container, arranges buttons vertically centered, */
-.sidebar-nav {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly; 
-}
-  
-/* This adds Lobster font styling on and rounded top-left corner for visibility and style. */
+/* This adds Lobster font styling and rounded top-left corner for visibility and style. */
 .text {
     position: fixed;
-    bottom: 0;     
-    right: 0;       
+    bottom: 0;
+    right: 0;
     font-size: 1.8vw;
     color: white;
     text-align: right;
     font-family: 'Lobster', cursive;
     z-index: 100;
-    background-color: rgba(0, 0, 0, 0.4); 
-    padding: 0.2em 0.5em; 
-    border-radius: 10px 0 0 0; 
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0.2em 0.5em;
+    border-radius: 10px 0 0 0;
+    min-width: 250px;
 }
 
 /* .left-bar: Creates a fixed vertical sidebar on the left, 20% wide but at least 180px, with gray background and centered content, covering full viewport height. */
 .left-bar {
     width: 20%;
     min-width: 180px;
-    background-color: gray;  
+    background-color: gray;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 5%;
-    height: 100vh;          
-    position: fixed;       
+    height: 100vh;
+    position: fixed;
     left: 0;
     top: 0;
-    z-index: 1000;          
+    z-index: 1000;
 }
-  
-/* This styles the fixed left sidebar with gray background and vertical layout */
+
+/* This styles the main content area, giving it left margin to avoid sidebar and centers content */
 .main-content {
     margin-left: 20%;
     width: 80%;
@@ -108,43 +135,31 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-/* This styles the main content area, giving it left margin to avoid sidebar and centers content */
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2%;
-    width: 90%;           
-    max-width: 600px;      
-    margin-left: 0% auto;      
+    flex-grow: 1;
 }
 
 /* This creates a responsive grid of images with two columns and spacing between items */
+.image-grid {
+    /* KEY CHANGE: Forces 2 columns regardless of screen size, allowing images to shrink */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2%;
+    width: 90%;
+    max-width: 900px; /* Keep a reasonable max width for larger screens */
+    margin-top: 20px;
+}
+
+/* This makes images fill their grid cell with square aspect ratio, rounded corners, and smooth transitions */
 .image-grid img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
+    width: 100%; /* Ensures image fills its cell horizontally */
+    height: 200px; /* Set a fixed height for images on larger screens */
+    object-fit: cover; /* Crucial: This crops the image to fit the dimensions while maintaining aspect ratio */
     border-radius: 10%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block;
 }
-  
-/* This makes images fill their grid cell with square aspect ratio, rounded corners, and smooth transitions */
-.image-grid img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px white;
-}
-  
+
 /* This adds a subtle zoom and shadow effect on image hover for interactivity */
 .image-grid img:hover {
     transform: scale(1.05);
     box-shadow: 0 0 10px white;
-}
-
-/* This styles heading text to be large, centered, with bottom margin and white color */
-.text {
-    font-size: 170%;
-    text-align: center;
-    margin-bottom: 5%;
-    color: #fff;
 }
