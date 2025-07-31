@@ -97,7 +97,7 @@ body {
     position: fixed;       
     left: 0;
     top: 0;
-    z-index: 1000;          
+    z-index: 1000;        
 }
 
 /* Main content shifted right to make room for sidebar, centered content, padding added */
