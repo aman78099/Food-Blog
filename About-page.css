@@ -97,28 +97,28 @@ body {
     position: fixed;       
     left: 0;
     top: 0;
-    z-index: 1000;        
+    z-index: 1000;          
 }
 
 /* Main content shifted right to make room for sidebar, centered content, padding added */
 .about-content {
-    margin-left: 20%; 
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: calc(20% + 20px);
+    width: calc(80% - 20px);
     padding: 5%;
-    height: 100vh;
     text-align: center;
 }
-  
+
+
+
 /* Paragraph styling inside about content: larger black text, max width for readability, and good line spacing */
 .about-content p {
-    font-size: 147%;
+    font-size: clamp(12px, 2vw, 24px);
     max-width: 700px;
     line-height: 1.6;
     color: black;
+    margin: 0 auto;
 }
+
   
 /* Responsive paragraph font size for smaller screens */
 @media (max-width: 768px) {
